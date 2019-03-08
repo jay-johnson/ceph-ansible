@@ -1,0 +1,8 @@
+[mons]
+master1.example.com
+master2.example.com
+master3.example.com
+[osds]
+master1.example.com
+master2.example.com
+master3.example.com
