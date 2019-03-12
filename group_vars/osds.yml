@@ -278,3 +278,5 @@ journal_collocation: true
 osd_scenario: collocated
 devices:
   - /dev/vdb
+dedicated_devices:
+  - /dev/vdc

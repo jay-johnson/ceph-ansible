@@ -679,10 +679,11 @@
 
 #use_fqdn_yes_i_am_sure: false
 
-ceph_origin: distro
+ceph_origin: repository
+ceph_repository: community
 ceph_stable: true
 ceph_stable_key: https://download.ceph.com/keys/release.asc
-ceph_stable_release: luminous
+ceph_stable_release: mimic
 ceph_stable_repo: "http://download.ceph.com/rpm-{{ ceph_stable_release }}"
 cephx: true
 generate_fsid: false

@@ -1,0 +1,26 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: ceph-mon-1
+  namespace: kube-system
+spec:
+  type: ExternalName
+  externalName: 192.168.0.104.xip.io
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: ceph-mon-2
+  namespace: kube-system
+spec:
+  type: ExternalName
+  externalName: 192.168.0.105.xip.io
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: ceph-mon-3
+  namespace: kube-system
+spec:
+  type: ExternalName
+  externalName: 192.168.0.106.xip.io
